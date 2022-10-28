@@ -1,0 +1,12 @@
+.main{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  align-items: center;
+  width: 800px;
+  height: 500px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
