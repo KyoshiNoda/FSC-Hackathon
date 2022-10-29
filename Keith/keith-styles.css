@@ -135,7 +135,6 @@ h1 {
 }
 
 
-/* .aboutme {
 
   font-size: large;
 
@@ -208,13 +207,15 @@ button {
 
   color: white;
 
-  color: white;
+
 
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 
 }
-
-
+.center{
+  display: flex;
+  justify-content: center;
+}
 #model {
 
   background-color: white;
