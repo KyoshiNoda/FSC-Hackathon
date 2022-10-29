@@ -1,0 +1,51 @@
+.nav{
+    background-color: rgb(80, 212, 157);
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    padding: 10px;
+}
+.face{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.faceDiv {
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.body{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.description{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.faceDiv:hover .description{
+    visibility: visible;
+}
+
+.image:hover .description{
+    visibility: visible;
+}
+
