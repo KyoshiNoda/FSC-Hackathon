@@ -11,14 +11,17 @@
   display: flex;
   justify-content: center;
 }
+.v-box h1{
+  text-align: center;
+}
 .container{
   align-items: center;
   width: 800px;
   height: 500px;
-  background-color: red;
   display: flex;
-  background-color: red;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
   justify-content: space-evenly;
+  border-radius: 25px;
 }
 
 .image-box img{
